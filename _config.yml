@@ -7,10 +7,10 @@ relative_permalinks: true
 # Setup
 title:               Akash Agrahari
 tagline:             ' Blog | Music | Code'
-description:         ''
+description:         'blah'
 url:                 http://frugalcoder.github.io
 baseurl:             ''
-paginate:            3
+paginate:            5
 
 # About/contact
 author:
