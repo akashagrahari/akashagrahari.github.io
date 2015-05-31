@@ -4,10 +4,18 @@ title: Music
 ---
 
 <p class="message">
-  This is the music page
+  I bought some equipment to record stuff after graduating from BITS Pilani. I always wanted to do that. You can find links to my Youtube and SoundCloud profile below and some recordings and performances. Do give them a listen. If you like them you can <a href="">subscribe on Youtube</a> to my channel or <a href="">follow me on SoundCloud</a>.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Soundcloud
+
+
+
+## Youtube
+
+
+
+<!-- In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
 There are currently two themes built on Poole:
 
@@ -27,4 +35,4 @@ Some fun facts about the setup of this project include:
 
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+Thanks for reading! -->
