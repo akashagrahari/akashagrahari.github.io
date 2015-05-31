@@ -2,6 +2,7 @@
 layout: post
 title: The Dark Side
 sub-title: Showing life in cinema
+permalink: dark-side
 ---
 
 I have been watching quite a few number of movies during the vacations. I asked my brother for suggestions. He told me to watch [Million Dollar Baby](http://www.imdb.com/title/tt0405159/), a [Clint Eastwood movie](http://en.wikipedia.org/wiki/Clint_Eastwood). I have watched many of his movies, mostly of which are quite old – The [“man with no name” trilogy](en.wikipedia.org/wiki/Man_with_No_Name), [Dirty Harry series](en.wikipedia.org/wiki/Dirty_Harry_(film_series)), etc. And when I came to know that the movie revolves around boxing, I assumed that it would be another style flick as most of his earlier movies were. But I was amazed after seeing the movie. The movie is just too good, and too real. The movie is only as much about boxing as [Up](www.imdb.com/title/tt1049413/) is about flying houses. The tool could have been anything; perhaps Swank could have been a high jumper. Boxing is just a tool to give a broader message.

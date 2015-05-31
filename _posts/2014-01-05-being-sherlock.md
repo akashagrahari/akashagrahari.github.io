@@ -2,6 +2,7 @@
 layout: post
 title: Being Sherlock
 sub-title: Why I just loved the new episode. Why you might too.
+permalink: being-sherlock
 ---
 
 ### *Spoilers Ahead*

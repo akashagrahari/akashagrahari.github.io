@@ -2,6 +2,7 @@
 layout: post
 title: Handling Excel Data with PHP
 sub-title: Using PHPExcel, you can easily read, create and modify excel data
+permalink: handling-excel-php
 ---
 
 A couple of months ago during an internship, I was asked to tackle an inventory management problem, and develop efficient algorithms to develop replenishment models to keep the inventory levels low. For this task I had to parse a large number of excel files to get the initial population of data. Granted, PHP was certainly not the best choice for this, and even for a browser based application, I could certainly have a third party script and called it from PHP. I ended up using PHP though, since time was scarce.

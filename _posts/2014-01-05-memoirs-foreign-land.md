@@ -2,6 +2,7 @@
 layout: post
 title: Memoirs of a Foreign Land
 sub-title: A North Indian's visit to Kerala
+permalink: memoirs-foreign-land
 ---
 
 My father was transferred to Calicut a few months back. We used to be in Bhopal before this and before that, we spent our whole life in UP. My semester ended and so I traveled to Calicut.
