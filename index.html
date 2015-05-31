@@ -11,10 +11,14 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+    <h3 class="post-date">{{ post.sub-title }}</h3>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    
+     {{ post.content | split:'<!--break-->' | first }}
+    {% if post.content contains '<!--break-->' %}
+      <a href="{{ post.url }}">read more</a>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
