@@ -7,7 +7,7 @@ permalink: being-sherlock
 
 ### *Spoilers Ahead*
 
-Right now, I might annoy a lot of people. Some might even have been die-hard fans of the TV series [Sherlock](www.imdb.com/title/tt1475582/). I think that the [S03E01 episode](http://www.imdb.com/title/tt2189771/?ref_=ttep_ep2) was just great. It was entertaining, thoughtful and nicely executed.
+Right now, I might annoy a lot of people. Some might even have been die-hard fans of the TV series [Sherlock](http://www.imdb.com/title/tt1475582/). I think that the [S03E01 episode](http://www.imdb.com/title/tt2189771/?ref_=ttep_ep2) was just great. It was entertaining, thoughtful and nicely executed.
 
 <!--break-->
 
