@@ -2,6 +2,7 @@
 layout: post
 title: The Comedy of Laws
 sub-title: Laws which went way off-track.
+permalink: comedy-laws
 ---
 
 ***Reader discretion advised. Most of the facts presented here are true. You are welcome to let me know if I missed some points or got something wrong.***
