@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am a Software Development Engineer at <a href="www.flipkart.com">Flipkart</a> in Bangalore, India. But before all this, I was a student of BITS Pilani. I love music. I picked up my first instrument in 2012, and I am still in awe of that moment. I play the guitar, the drum-kit and the keyboards. I love composing and am fascinated with how the computer can help a composer in realizing his full potential.
+In Delhi right now, I will sooon be joining as a Software Development Engineer at <a href="www.flipkart.com">Flipkart</a> in Bangalore, India. But before all this, I was a student of BITS Pilani. I love music. I picked up my first instrument in 2012, and I am still in awe of that moment. I play the guitar, the drum-kit and the keyboards. I love composing and am fascinated with how the computer can help a composer in realizing his full potential.
 
 <p>
 <center><img src="/public/image.jpg"></center>
