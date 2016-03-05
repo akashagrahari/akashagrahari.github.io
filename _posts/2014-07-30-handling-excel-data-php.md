@@ -9,7 +9,7 @@ A couple of months ago during an internship, I was asked to tackle an inventory 
 
 <!--break-->
 
-I came across this package called PHPExcel. You can check their codeplex page [here](https://phpexcel.codeplex.com).
+[I](http://frugalcoder.github.io/handling-excel-php#abc) came across this package called PHPExcel. You can check their codeplex page [here](https://phpexcel.codeplex.com).
 
 In this article, I will introduce you to the set of classes contained in PHPExcel and what all can you accomplish with it through some examples.
 
