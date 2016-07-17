@@ -2,22 +2,23 @@
 layout: page
 title: About
 ---
+## Professional
+Currently working as a Software Development Engineer at <a href="www.flipkart.com">Flipkart</a> in Bangalore, India. I am a proud alumni of BITS Pilani.
 
-In Delhi right now, I will sooon be joining as a Software Development Engineer at <a href="www.flipkart.com">Flipkart</a> in Bangalore, India. But before all this, I was a student of BITS Pilani. I love music. I picked up my first instrument in 2012, and I am still in awe of that moment. I play the guitar, the drum-kit and the keyboards. I love composing and am fascinated with how the computer can help a composer in realizing his full potential.
+## Technology
+I like making things. My primary interest has always been in making new things rather than working on existing systems. I consider myself as a full stack web-developer, although, it has been sometime since I have worked in that area. 
 
-<p>
-<center><img src="/public/image.jpg"></center>
-</p>
+At work, I currently work on Bid Data technologies. Before this, I have worked in logistics tech, and used GA to solve the inventory holding problems of a plant.
 
-I love computers; and technology, and I like reading about them. I also love reading news, and writing my opinions about it. And, I hate the Indian National Congress. *Bite me!*
+I am a strong believer in open-source. I don't work on anything to derive profits from it. I work on things for fun, or because it can help people.
 
-I am a big-time foodie. I eat a lot and I am proud of it. And I love movies. I would really like to consider myself as an amateur film-maker, but that would an over-statement. You can find my short film <a href="https://youtu.be/BKbS-rZXgU0" target="_blank">here</a>. We screwed up a lot on our first attempt, but I love the concept of the movie. I hope I get the opportunity to make more movies.
+## Music
+I love music and everything that comes with it. I do covers and make own compositions. I play the drums, guitar and a bit of keyboards. Do visit the music section to find out more.
 
-Feel free to browse the website. Visit the blog, the music section. If you like the website, do checkout my other profiles:
+Also, I love movies. I would really like to consider myself as an amateur film-maker, but that would an over-statement. You can find my short film <a href="https://youtu.be/BKbS-rZXgU0" target="_blank">here</a>. We screwed up a lot on our first attempt, but I love the concept of the movie. I hope I get the opportunity to make more movies.
 
+## Other Profiles - 
 * [Twitter](http://www.twitter.com/AA_isnowonline)
 * [Youtube](https://www.youtube.com/user/classicguy1992/feed)
 * [LinkedIn](https://in.linkedin.com/in/akashagrahari)
 * [SoundCloud](https://soundcloud.com/akash-agrahari)
-
-Thanks for reading!

@@ -3,15 +3,30 @@ layout: page
 title: Music
 ---
 
-<p class="message">
-  I reently bought some recording equipment for my future home-studio. I always wanted to do that. You can find links to my Youtube and SoundCloud profile below and some recordings and performances. As of now you will mostly find my performances from my college. I will upload new material soon.	
-</p>
-  Do give them a listen. If you like them you can <a href="https://www.youtube.com/user/classicguy1992?sub_confirmation=1" target="_blank">subscribe on Youtube</a> or <a href="https://soundcloud.com/akash-agrahari" target="_blank">follow me on SoundCloud</a>.
+## Philosophy
+I do think that the bulk what you think and produce should be meaningful and should tell a story in one way or the other.
+
+## Approach
+I did try my hands on the local Bangalore Band Music scene. I have mostly been disappointed by what's going on. This is not a sweeping statement. There are good bands out there. But I can't afford to put more effort for which I am already seeing diminishing returns. So I have started looking for collaborations. I am asking friends, stranger; strangers in other countries to help me with my tracks. And I have got a pretty decent feedback. Hope to complete at least 3 songs by the end of this year.
+
+## Originals - 
+Currently working on three tracks as you are reading this.
+
+## Covers - 
+* Pyramid Song - Radiohead (full song)
+* Purple Rain - Prince (Instrumental Cover)
+
+And this and jams below in the Soundcloud widget
+
+<!-- <p class="message"> -->
+  <!-- I reently bought some recording equipment for my future home-studio. I always wanted to do that. You can find links to my Youtube and SoundCloud profile below and some recordings and performances. As of now you will mostly find my performances from my college. I will upload new material soon.	 -->
+<!-- </p> -->
+  <!-- Do give them a listen. If you like them you can <a href="https://www.youtube.com/user/classicguy1992?sub_confirmation=1" target="_blank">subscribe on Youtube</a> or <a href="https://soundcloud.com/akash-agrahari" target="_blank">follow me on SoundCloud</a>. -->
 
 
-## Youtube
-
-<center><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/lapT4Eq2GlM' frameborder='0' allowfullscreen></iframe></div></center>
+<!-- ## Youtube
+ -->
+<!-- <center><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/lapT4Eq2GlM' frameborder='0' allowfullscreen></iframe></div></center> -->
 
 ## Soundcloud
 
