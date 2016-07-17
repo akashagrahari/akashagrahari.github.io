@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 ## Professional
-Currently working as a Software Development Engineer at [Flipkart](www.flipkart.com) in Bangalore, India. I am a proud alumni of BITS Pilani.
+Currently working as a Software Development Engineer at [Flipkart](http://www.flipkart.com) in Bangalore, India. I am a proud alumni of BITS Pilani.
 
 ## Technology
 I like making things. My primary interest has always been in making new things rather than working on existing systems. I consider myself as a full stack web-developer, although, it has been sometime since I have worked in that area. 
