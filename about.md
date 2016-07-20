@@ -6,11 +6,11 @@ title: About
 Currently working as a Software Development Engineer at [Flipkart](http://www.flipkart.com) in Bangalore, India. I am a proud alumni of BITS Pilani.
 
 ## Technology
-I like making things. My primary interest has always been in making new things rather than working on existing systems. I consider myself as a full stack web-developer, although, it has been sometime since I have worked in that area. 
+My primary interest has always been in making new things rather than working on existing systems. I consider myself as a full stack web-developer, although, it has been sometime since I have worked in that area. 
 
-At work, I currently work on Bid Data technologies. Before this, I have worked in logistics tech, and used GA to solve the inventory holding problems of a plant.
+At work, I currently work on Big Data technologies. Before this, I have worked in logistics tech, and used GA to solve the inventory holding problems for a manufacturing plant.
 
-I am a strong believer in open-source. I don't work on anything to derive profits from it. I work on things for fun, or because it can help people.
+I am a strong believer in open-source. I don't have any inclination on making things for money. I work on things for fun, or because it can help people.
 
 ## Music
 I love music and everything that comes with it. I do covers and make own compositions. I play the drums, guitar and a bit of keyboards. Do visit the music section to find out more.
