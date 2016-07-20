@@ -7,7 +7,7 @@ title: Music
 I do think that the bulk what you think and produce should be meaningful and should tell a story in one way or the other.
 
 ## Approach
-I did try my hand on the local Bangalore Band Music scene. I have mostly been disappointed by what's going on. This is not meant to be a sweeping statement. There are good bands out there. But I can't afford to put more effort into something for which I am already seeing diminishing returns. So I have started looking for collaborations. I am asking friends, stranger; strangers in other countries to help me with my tracks. And I have got a pretty decent feedback. Hope to complete at least 3 songs by the end of this year. If you are interested in collaborating, do drop me a mail on akash.agrahari@gmail.com
+I did try my hand at the local Bangalore Band Music scene. I have mostly been disappointed by what's going on. This is not meant to be a sweeping statement. There are good bands out there. But I can't afford to put more effort into something for which I am already seeing diminishing returns. So I have started looking for collaborations. I am asking friends, stranger; strangers in other countries to help me with my tracks. And I have got a pretty decent feedback. Hope to complete at least 3 songs by the end of this year. If you are interested in collaborating, do drop me a mail on akash.agrahari@gmail.com
 
 ## Originals - 
 Currently working on three tracks as you are reading this.
