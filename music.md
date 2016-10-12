@@ -4,17 +4,19 @@ title: Music
 ---
 
 ## Philosophy
-I do think that the bulk what you think and produce should be meaningful and should tell a story in one way or the other.
+I think that the bulk what you think and produce should be meaningful and should tell a story in one way or the other, and should strive to push the envelope of music as an art.
 
 ## Approach
-I did try my hand at the local Bangalore Band Music scene. I have mostly been disappointed by what's going on. This is not meant to be a sweeping statement. There are good bands out there. But I can't afford to put more effort into something for which I am already seeing diminishing returns. So I have started looking for collaborations. I am asking friends, stranger; strangers in other countries to help me with my tracks. And I have got a pretty decent feedback. Hope to complete at least 3 songs by the end of this year. If you are interested in collaborating, do drop me a mail on akash.agrahari@gmail.com
+I am always, and actively looking for contributions from friends and strangers alike. I am also actively looking to contribute to other people's tracks as well. If you are interested in collaborating, do drop me a mail on akash.agrahari@gmail.com, or connect with me on <a target="_blank" href="https://www.facebook.com/akashagrahari2392">Facebook</a> or <a target="_blank" href="https://twitter.com/AA_isnowonline">Twitter</a>
+
+I like working on the base of a track on my own and then invite people to pitch in for specific parts. I perform in Bangalore from time to time, but I am not interested in a long term commitments to a band. If you are looking for a drummer or guitarist who can fill in or a solo-artist who can perform on a per gig basis, drop me a call. 
 
 ## Originals - 
 Currently working on three tracks as you are reading this.
 
 ## Covers - 
-* Pyramid Song - Radiohead (full song)
-* Purple Rain - Prince (Instrumental Cover)
+* <a target="_blank" href="https://soundcloud.com/akash-agrahari/pyramid-song-cover">Pyramid Song - Radiohead (full song)</a>
+* <a target="_blank" href="https://soundcloud.com/akash-agrahari/purple-rain-prince-instrument-cover">Purple Rain - Prince (Instrumental Cover)</a>
 
 All this and jams below in the Soundcloud widget
 
