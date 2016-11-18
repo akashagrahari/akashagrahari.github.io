@@ -45,7 +45,7 @@ The Rent Control Act was instituted by the centre and had the following key feat
 
 Rent control was conceived as a short term measure to overcome the problem of temporary shortages of housing accomodations. They were supposed to be temporary acts, but they were extended every few years. The rent was fixed as per the "standards" and it *did not change*; regardless of the inflation. The standards were modified but you know how slow these things can get. And we all are aware of the high inflation rates during the Indira Gandhi Regime (a maximum of 25.4%); and if a property was 20 years old, the tenant could not be removed from the housing premises. The logic being that the landowner has enjoyed all the benefits and earnings he can get from his property, and thus the property can now be used for *"Samajwaad"*. So, if a family started paying Rs. 10, say, in the 70s, they could keep paying roughly the same sum (say, Rs. 50) in the 21st century and nobody could do anything about it. The landowner could not ask the tenant to leave and he could not ask a higher price because it wasn't *"fair"*.
 
-###So what exactly happened?
+### So what exactly happened?
 
 Firstly, there was a decline of investment in new rental housing, not just because of less rent, but also because of the fear of losing the house altogether. Real Estate was no longer seen as a means to derive profits. The number of available housing premises dropped drastically.
 

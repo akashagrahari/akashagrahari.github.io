@@ -5,40 +5,37 @@ sub-title: Probabilistic Datastructures and More
 permalink: thinking-about-datastructures
 ---
 
-With the growing demand to store more and more fault-proof data of systems for big companies, it is very important to come up with generic (and sometimes specific) ways and algorithms to store data in a meaningful way which can be later extracted for business and system analytics.
+With the growing demand to store more fault-proof data of systems for big companies, it is important to come up with generic (and sometimes specific) ways and algorithms to store data in a meaningful way which can be later extracted for business and system analytics.
 
-While working on such a problem, I came across many probabislistic data structures which excel in storing massive amounts of information. I will cover two of those here which are important for me to go deeper into the subject.
+While working on such a problem, I came across many probabislistic data structures which excel in storing massive amounts of information. I will cover two of these here which are important for me to go deeper into the subject.
 
 <!--break-->
 
 ## The Problem
 
-As an example, imagine we want to count the number of distinct IP addresses visiting across a large website like Wikipedia. The traditional approach would be to resolve to a hash table which maps each such IP address with a count with a count. As of May, 2015, there were 430.54 million distinct Wikipedia users. Due to the scale, the hash table approach won't just work.
+As an example, imagine we want to count the number of distinct IP addresses visiting across a large website like Wikipedia. The traditional approach would be to resolve to a hash table which maps each such IP address with a count with a count. As of May, 2015, there were 430.54 million distinct Wikipedia users. Due to the scale of the problem, the hash table approach won't just work.
 
 ## The Probabilistic Way
 
-When you really grasp the size of the above problem, you realize that you just can't ignore probabilistic models. These models give away some accuracy in numbers to offer a more capacity efficient and performant way to store such data. On scale like these a max error of say 0.5% to 2% doesn't really matter, because most of big-data applications are more about trends than hard facts. Maybe it's time to relook at the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem). Although not strictly applicable to this problem; much like the CAP theorem, we must choose between consistency (accuracy) and availability (online). With CAP, we can typically adjust the level in which that trade-off occurs. This space/performance-accuracy exchange behaves very much the same way.
-
-There are some popular models which I would list down but wont go into what they are. The names would be a good reference for you look them up and learn about them - Bloom Filters (Default/Scalable/Stable/Counting/Inverse), Min-Hash.
-
+When you really grasp the size of the above problem, you realize that you just can't ignore probabilistic models. These models give away some accuracy in numbers to offer a more capacity efficient and performant way to store data. On scale like these an error of say 0.5% - 2% doesn't really matter, because most of big-data applications are more about trends than hard facts. Maybe it's time to relook at the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem). Although not strictly applicable to this problem; much like the CAP theorem, we must choose between consistency (accuracy) and availability (online). With CAP, we can typically adjust the level in which that trade-off occurs.
 
 ## HyperLogLog
 
-This model is the bread and better for a lot of OLAP engines. Quick fact, not so long ago, redis released HyperLogLog as a new data-structure in the redis bundle.
+This model is the bread and better for a lot of OLAP engines. *Quick fact, not so long ago, redis released HyperLogLog as a new data-structure in the redis bundle.*
 
-The problem it solves is cardinality estimation. Let's say we have a stream which collects the name of the person who logged in to a website at any given time. And we want to find out the distinct first names we have as the user base (Surely, you can think of a better example). The conventional approach would be think of it as a [Commutative Monoid](https://en.wikipedia.org/wiki/Monoid#Commutative_monoid). If every event is a set containing the first name of a user, then the union of these events will give a set which has all the first names, appearing only once). The order in which this happens doesn't matter because of the properties of a commutative monoid.
+The problem it solves is cardinality estimation. Let's say we have a stream which collects the name of the person who logged in to a website at any given time. And we want to find out the distinct first names we have (Surely, you can think of a better example). The conventional approach would be to think of it as a [Commutative Monoid](https://en.wikipedia.org/wiki/Monoid#Commutative_monoid). If every event is a set containing the first name of a user, then the union of these events will give a set which has all the first names, appearing only once). The order in which this happens doesn't matter because of the properties of a commutative monoid.
 
 > {Akash} U {Amrit} U {Indra} U {Akash} U ... = {Akash, Amrit, Indra}
 
 Once you have the final set, all one needs to do is count the number of elements in the set to get the cardinality of the set. However, this approach has a tendency to explode, as the size of the resulting set in unbounded. Hence, this traditional solution is not practical. That begs the question - Is there a bounded way to calculate the unique elements in a stream. 
 
-Well more or less. Not accurately, but with a certain degree of error.
+Well more or less.
 
-Let's say you use an appropriate hash method to hash each value, say between 0 and 1. So every unique value will effectively lie on some random point on the number line joining 0 and 1. If your hash function is good enough, they will be well spread. 
+Let's say you use an appropriate hash method to hash each value, say between 0 and 1. So every unique value will effectively lie on some random point on the number line joining 0 and 1. If your hash function is good enough, they will be well spread for a random sample space. 
 
 > 0 <-------------^-------------------^------------------^--------------> 1
 
-Let's say that we hash three values and they occupy the points given as *^*. The average distance, say *d* between any adjacent values is related to *N*, the number of unique values. In an ideal case, with values spreading out perfectly, *d = 1/N+1*. This value *d* is also the distance between 0 and the first value on the number line. Hence, just keeping the Min() of all the hash values can give us the cardinality N as
+Let's say that we hash three values and they occupy the points given as above. The average distance, say *d* between any adjacent values is related to *N*, the number of unique values. In an ideal case, with values spreading out perfectly, *d = 1/N+1*. This value *d* is also the distance between 0 and the first value on the number line. Hence, just keeping the Min() of all the hash values can give us the cardinality N as
 
 > N = 1/e - 1
 
@@ -46,7 +43,7 @@ If we got the following values for the above example.
  
 > Akash = 0.763 ; Amrit = 0.452; Indra = 0.345
 
-N would turn out to be roughly 2. Now that is obviously not the desired solution, since our hash function didn't behave in the *perfect, desired way*. To make up for this we employ multiple hash functions and produce values as - 
+N would turn out to be roughly 2. Now that is obviously not the desired solution, since our hash function didn't behave in the *perfect, desired way*. To make up for this inconsistency, we use multiple hash functions and produce values as - 
 
 > {H1(Akash), H2(Akash), H3(Akash) . . . }<br>
 {H1(Amrit), H2(Amrit), H3(Amrit) . . . }<br>
@@ -58,14 +55,16 @@ Then we can calculate an element wide min of the matrices -
 
 The average of the above values will give a better approximation of the value *d* and hence the cardinality *N*.
 
-This is more or less how HyperLogLog works. And for most applications, a hundred to thousand of such hash functions would yield a number which has a non growing error of less than 2%, which is pretty awesome.
+This is more or less how HyperLogLog works. And for most applications, a hundred such hash functions would yield a number which has a non increasing error rate of less than 2%, which is pretty awesome.
 
-Point to be noted here is that the key is lost in this data-structure. Every query has to come via a key and we cannot as questions like *"Who appeared the most number of times?"*
+Point to be noted here is that the key is lost in this data-structure, so we cannot as questions like *"Who appeared the most number of times?"*
+
+The great thing about HLL is that you can perform unions (and therefore intersection, using the inclusion-exclusion principle).
 
 
 ## Count Min-Sketch
 
-So let's think about how can we solve the above question; and more. Let's solve the frequenct question - *how many times did an event occur?* The traditional way to go about would be treat every event as a map, e.g. - 
+So let's think about how can we solve the above question; and more. Let's solve the frequency question - *how many times did an event occur?* The traditional way to go about would be treat every event as a map, e.g. - 
 
 > {Akash: 1}, {Amrit: 1}, {Indra: 1}, ...
 
@@ -86,9 +85,9 @@ So let's say we got the following events -
 The resulting matrix would be - 
 > {0,0,0,1,3,0,0,0}
 
-Now when we are trying to ascertain how many times a name occured, we just hash it and find the counts at the position where the result of the hash gives a one. In *Akash's* case, it was the 5th bit and the value we get is 3.
+Now when we are trying to ascertain how many times a name occured, we just hash it and find the counts at the position where the result of the hash gives a one. *Amrit* offers the right answer, but in *Akash*'s case, then answer we get is 3.
 
-This is obviously not right, because there were only 2 events of Akash. The error turns out to be higher while finding the frequency for *Indra*. But we can minimize the effect of this collision among the events by using a sufficiently large number of hash functions, and the estimated frequency would be the one which is the lowest across all the hashes. 
+This is obviously not right, because there were only 2 events of Akash. The error turns out to be even higher while finding the frequency for *Indra*. But we can minimize the effect of this collision among the events by using a sufficiently large number of hash functions, and the estimated frequency would be the one which is the lowest across all the hashes. 
 
 ![Count Min Sketch ](/public/count_min_sketch.png){:class="img-responsive"}
 
@@ -117,7 +116,7 @@ It's pretty obvious that it doesn't make a lot of sense to individually and manu
 
 While trying to solve this problem some time back, I came up with the following solution. A count-min sketch (named the logical group, "location" in this instance), which has HLL registers instead of counters in the matrices named by the hash values generated by hash function of the count-min sketch.
 
-Replacing pure counters with HLLs means that you can get unique count as opposed to the total count. And creating HLL registers only when an event occurs corresponding to a value saves disk space.
+Replacing pure counters with HLLs means that you can get unique count as opposed to the total count. And creating HLL registers only when an event occurs corresponding to a value saves memory.
 
 ## To End It All
 
