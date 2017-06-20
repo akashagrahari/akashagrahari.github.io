@@ -5,7 +5,7 @@ sub-title: What Piracy Means To Indian, and Indians
 permalink: indians-frugal
 ---
 
-People don't really talk about piracy a lot in India. But there is nothing unsurprising about it. Piracy is not just a crime in India, it's culture. In addition to that, it's a crime for which no one is prosecuted.
+People don't really talk about piracy a lot in India. But there is nothing shocking about it. Piracy is not just a crime in India, it's a part of the culture. In addition to that, it's a crime for which no one is prosecuted.
 
 Indians are proud of being part of the piracy movement.
 
@@ -19,7 +19,7 @@ Unsurprisingly enough, events like [*these*](http://indianexpress.com/article/in
 
 ![Akhilesh Yadav (UP CM) accepts to downloading the movie PK ](/public/akhilesh.jpg){:class="img-responsive"}
 
-We have gone to the point that we don't even think we are doing anything wrong when we donwload material illegally.
+We have gone to the point that we don't even think we are doing anything wrong when we download material illegally.
 
 How did this happen? And why is piracy a crime?
 
