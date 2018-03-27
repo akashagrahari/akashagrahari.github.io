@@ -13,7 +13,7 @@ While working on such a problem, I came across many probabislistic data structur
 
 ## The Problem
 
-As an example, imagine we want to count the number of distinct IP addresses visiting across a large website like Wikipedia. The traditional approach would be to resolve to a hash table which maps each such IP address with a count with a count. As of May, 2015, there were 430.54 million distinct Wikipedia users. Due to the scale of the problem, the hash table approach won't just work.
+As an example, imagine we want to count the number of distinct IP addresses visiting across a large website like Wikipedia. The traditional approach would be to resolve to a hash table which maps each such IP address with a count with a count. As of May, 2015, there were 430.54 million distinct Wikipedia users.
 
 ## The Probabilistic Way
 
