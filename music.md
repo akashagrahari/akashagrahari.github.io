@@ -1,17 +1,18 @@
 ---
+permalink: /music/
 layout: page
 title: Music
 ---
 
 ## Philosophy
-I think that the bulk what you think and produce should be meaningful and should tell a story in one way or the other; and should strive to push the envelope of music as an art.
+I think that the bulk what you produce should be meaningful and should tell a story in one way or the other; and should strive to push the envelope of music as an art.
 
 ## Approach
-I am always, and actively looking for contributions from friends and strangers alike. I am also actively looking to contribute to other people's tracks as well. If you are interested in collaborating, do drop me a <a href="mailto:akash.agrahari@gmail.com?Subject=Contribute%20on%20Tracks" target="_top">mail</a>, or connect with me on <a target="_blank" href="https://www.facebook.com/akashagrahari2392">Facebook</a> or <a target="_blank" href="https://twitter.com/AA_isnowonline">Twitter</a>
+I am always, and actively looking for contributions from friends and strangers alike. I am also actively looking to contribute to other people's tracks as well. If you are interested in collaborating, do drop me a <a href="mailto:akash.agrahari@gmail.com?Subject=Contribute%20on%20Tracks" target="_top">**mail**</a>, or connect with me on <a target="_blank" href="https://twitter.com/AA_isnowonline">Twitter</a>
 
-I like working on the base of a track on my own and then invite people to pitch in for specific parts. I perform in Bangalore from time to time, but I am not interested in a long term commitments to a band. If you are looking for a drummer or guitarist who can fill in or a solo-artist who can perform on a per gig basis, drop me a call. 
+Also, looking to connect with like-minded groups for performing at gigs. Drop me a mail.
 
-# Originals - 
+<!-- # Originals - 
 
 ## On Spotify
 <center><iframe src="https://open.spotify.com/embed?uri=spotify:user:akashagrahari:playlist:58BU7gGIx73k0pyzdqcbGa&theme=white" width="500" height="80" frameborder="0" allowtransparency="true"></iframe></center>
@@ -20,7 +21,7 @@ I like working on the base of a track on my own and then invite people to pitch 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCmq28sv1KRNSHWF4EZi3uuzSpf4au06s" frameborder="0" allowfullscreen></iframe></center>
 
 # Song Covers - 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCmq28sv1KRMlYoMOabVGwhvTKU0ckpkG" frameborder="0" allowfullscreen></iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCmq28sv1KRMlYoMOabVGwhvTKU0ckpkG" frameborder="0" allowfullscreen></iframe></center> -->
 
 <!-- <p class="message"> -->
   <!-- I reently bought some recording equipment for my future home-studio. I always wanted to do that. You can find links to my Youtube and SoundCloud profile below and some recordings and performances. As of now you will mostly find my performances from my college. I will upload new material soon.	 -->
