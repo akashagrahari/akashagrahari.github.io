@@ -4,8 +4,9 @@ layout: page
 title: Projects
 ---
 
-* <a href="https://github.com/akashagrahari/irrationalTunes" target="_blank">Irrational Tunes</a> - Project showcases the musical interpretation of popular irrational numbers in Mathematics.
-* <a href="https://github.com/akashagrahari/automatic-tagger" target="_blank">Automatic Tagger</a> - Made this for a hackathon, to tag articles between a set of predefined categories. Very rough. Needs loads of improvement.
+* Irrational Tunes \([demo](https://intense-wildwood-66354.herokuapp.com/)\) \([repo](https://github.com/akashagrahari/irrationalTunes)\) - Project showcases the musical interpretation of popular irrational numbers.
+* LearnPiano (In progress) \([repo](https://github.com/akashagrahari/appMidi)\) - Use midi files to learn how to play piano
+* Automatic Tagger \([repo](https://github.com/akashagrahari/automatic-tagger)\) - Made this for a hackathon, to tag articles between a set of predefined categories. Very rough. Needs loads of improvement.
 * <a href="https://github.com/akashagrahari/GameOfLife" target="_blank">Game of Life</a> - Simple Functional Ruby implementation of Conway's Game of Life
 * Open Source contributions - Mozilla Firefox (readability), Midi.js, is.js
 

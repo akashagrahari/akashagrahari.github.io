@@ -4,10 +4,6 @@ layout: page
 title: Music
 ---
 
-## Philosophy
-I think that the bulk what you produce should be meaningful and should tell a story in one way or the other; and should strive to push the envelope of music as an art.
-
-## Approach
 I am always, and actively looking for contributions from friends and strangers alike. I am also actively looking to contribute to other people's tracks as well. If you are interested in collaborating, do drop me a <a href="mailto:akash.agrahari@gmail.com?Subject=Contribute%20on%20Tracks" target="_top">**mail**</a>, or connect with me on <a target="_blank" href="https://twitter.com/AA_isnowonline">Twitter</a>
 
 Also, looking to connect with like-minded groups for performing at gigs. Drop me a mail.
