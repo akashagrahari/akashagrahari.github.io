@@ -1,15 +1,15 @@
 ---
 layout: post
 title: New Music Discovery - November, 2019
-sub-title: Probably Monthly Music Discovery Blog
-permalink: new-music-nov-2019
+sub-title: Music Discovery Blog 1
+permalink: new-music-1
 ---
 
 This blog has been in a rut really. Nothing happening here. But I want to get in the habit of writing more. Have been slowly guiding myself into better habits - exercise, wake up early, being more productive. And now I should, and I need to write more often. So this is going to be a part of that endeavour.
 
 Also, I have been really struggling to find new music that I really like. Spotify isnt helping. Last.fm is dead pretty much. I will have to take it on myself and go out there to find new music.
 
-So this monthly (hopefully) blog is gonna list around 3-5 (maybe more, maybe less) songs or artists that I discover each month. Hopefully that would keep me pumped up. I wont follow a particular system or order. And no rankings please. Not that I am against it, but I am not particularly fond of them either.
+So this blog (series?) is hopefully gonna list around 3-5 (maybe more, maybe less) songs or artists that I discover. Hopefully that would keep me pumped up. I wont follow a particular system or order. And no rankings please. Not that I am against it, but I am not particularly fond of them either.
 
 <!--break-->
 
