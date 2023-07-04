@@ -53,3 +53,4 @@ I have music (original and covers) available on several platforms. You can find 
 
 ## Resume - 
 <object data="{{ site.url }}/public/Akash_Agrahari_CV.pdf" width="800" height="1100" type='application/pdf'></object>
+<embed src="{{ site.url }}/public/Akash_Agrahari_CV.pdf" width="800" height="1100"  type="application/pdf" />
