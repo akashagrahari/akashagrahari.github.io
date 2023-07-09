@@ -29,7 +29,7 @@ title: Projects
 * Time signature guessing game
 * Polyrhythmic juggling
 * Slack bot which helps people to get to know each other
-* Twitter - on this day bot (as soon as Twitter fixes its shit lol)
+* Twitter - [on this day](https://en.wikipedia.org/api/rest_v1/#/Feed/onThisDay) bot (as soon as Twitter fixes its shit lol)
 * Wolf 3d like game engine
 * Game which uses the above game engine - player navigates a randomly generated maze.
 * Web assembly based daw

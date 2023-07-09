@@ -51,6 +51,6 @@ I have music (original and covers) available on several platforms. You can find 
 * [LinkedIn](https://in.linkedin.com/in/akashagrahari)
 * [SoundCloud](https://soundcloud.com/akash-agrahari)
 
-## Resume - 
-<object data="{{ site.url }}/public/Akash_Agrahari_CV.pdf" width="800" height="1100" type='application/pdf'></object>
-<embed src="{{ site.url }}/public/Akash_Agrahari_CV.pdf" width="800" height="1100"  type="application/pdf" />
+## Latest Resume - 
+You can find my latest resume <a href="{{ site.url }}/public/Akash_Agrahari_CV.pdf" target="_blank">**here**</a>
+
