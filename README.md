@@ -1,1 +1,0 @@
-Personal website made using Jekyll with Poole hosted on Github.

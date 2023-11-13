@@ -1,42 +1,143 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+<style>
+	:root {
+        --global-font-size: 20px;
+        --global-line-height: 1.4em;
+        --global-space: 10px;
+        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --background-color: #222225;
+        --page-width: 60em;
+        --font-color: #e8e9ed;
+        --invert-font-color: #222225;
+        --secondary-color: #a3abba;
+        --tertiary-color: #a3abba;
+        --primary-color: #62c4ff;
+        --error-color: #ff3c74;
+        --progress-bar-background: #3f3f44;
+        --progress-bar-fill: #62c4ff;
+        --code-bg-color: #3f3f44;
+        --input-style: solid;
+        --display-h1-decoration: none;
+      }
+</style>
+</head>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.url }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <h3 class="post-date">{{ post.sub-title }}</h3>
+<body class="terminal">
+    <div class="container">
+    	<div class="terminal-nav">
+    		<header class="terminal-logo">
+      			<div class="logo terminal-prompt"><a href="/" class="no-style">Akash Agrahari</a></div>
+    		</header>
+    	</div>
+    </div>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    
-     {{ post.content | split:'<!--break-->' | first }}
-    {% if post.content contains '<!--break-->' %}
-      <a href="{{ post.url }}">read more</a>
-    {% endif %}
-  </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+	<div class="container">
+		<p>
+        	Short description about myself
+      	</p>
 
+      	<h1> Professional Experience </h1>
+  		<div class="terminal-timeline">
+			<div class="terminal-card">
+  				<header>Card Title</header>
+  					<div>	
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+				        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+				        incidunt. Eaque quod et, aut maiores excepturi sint.
+			      </div>
+		    </div>
+		    <div class="terminal-card">
+		      <header>Card Title</header>
+			      <div>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+				        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+				        incidunt. Eaque quod et, aut maiores excepturi sint.
+			      </div>
+		    </div>
+	  	</div>
+
+	  	<h1> Side Projects </h1>
+	  	</br>
+
+	  	<h2> PianoPal </h2>
+	  	<div class="progress-bar">
+    		<div class="progress-bar-filled" style="width: 60%"></div>
+  		</div>
+
+  		<p>
+  			Description
+  		</p>
+
+	  	<h2> IrrationalTunes </h2>
+	  	<div class="progress-bar">
+    		<div class="progress-bar-filled" style="width: 100%"></div>
+  		</div>
+
+  		<p>
+  			Description
+  		</p>
+
+
+	  	<h2> Pong </h2>
+	  	<div class="progress-bar">
+    		<div class="progress-bar-filled" style="width: 100%"></div>
+  		</div>
+
+  		<p>
+  			Description
+  		</p>
+
+  		<h1> Education </h1>
+  		<div class="terminal-timeline">
+			<div class="terminal-card">
+  				<header>Card Title</header>
+  					<div>	
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+				        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+				        incidunt. Eaque quod et, aut maiores excepturi sint.
+			      </div>
+		    </div>
+		    <div class="terminal-card">
+		      <header>Card Title</header>
+			      <div>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+				        ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+				        incidunt. Eaque quod et, aut maiores excepturi sint.
+			      </div>
+		    </div>
+	  	</div>
+
+  		<h1> Music </h1>
+  		All my music - original and covers are on Youtube and Soundcloud.
+
+  		<h1> Contact Me </h1>
+
+	  	<ul>
+		    <li>Twitter</li>
+		    <li>LinkedIn</li>
+
+	  </ul>
+	  <hr>
+	  <footer>
+  		<p>
+  			Design template credits: 
+  		</p>
+</footer>
+  	</div>
+
+
+
+
+</body>
+
+</html>
