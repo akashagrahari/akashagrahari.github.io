@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Akash Agrahari</title>
+  <meta name="description" content="Software engineer, builder, and creator." />
+  <script>
+    (function () {
+      const t = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo"><a href="index.html">Akash Agrahari</a></div>
+      <div class="nav-links">
+        <a href="about.html" class="active">About</a>
+        <a href="side-projects.html">Side Projects</a>
+        <a href="https://aagrahari.substack.com/" target="_blank" rel="noopener">Writings</a>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme"></button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <h1 class="page-title">About</h1>
+
+      <div class="about-bio">
+        <p>
+          I'm Akash — a software engineer with around 10 years of professional experience across
+          adtech, fintech, privacy compliance, and cloud infrastructure, in the US, UK, and India.
+          Currently a Staff Software Engineer at
+          <a href="https://superbet.ro/" target="_blank" rel="noopener">Superbet</a>.
+        </p>
+        <p>
+          Outside of work, I build side projects — useful tools for myself or experiments. I write occasionally on
+          <a href="https://aagrahari.substack.com/" target="_blank" rel="noopener">Substack</a>.
+        </p>
+        <p>
+          I'm also a musician. I play guitar and piano and dabble in music production. My originals and
+          covers are on <a href="https://www.youtube.com/@AkashAgrahari92" target="_blank" rel="noopener">YouTube</a>
+          and <a href="https://soundcloud.com/akash-agrahari" target="_blank" rel="noopener">SoundCloud</a>.
+        </p>
+        <p>
+          I stream on Twitch at
+          <a href="https://www.twitch.tv/taxbros" target="_blank" rel="noopener">taxbros</a> — mostly
+          playing Dota 2. Gaming content also lives on
+          <a href="https://www.youtube.com/@TaxBrosGaming" target="_blank" rel="noopener">YouTube</a>.
+        </p>
+      </div>
+
+      <!-- Experience -->
+      <div class="section">
+        <div class="section-header">
+          <span class="section-title">Experience</span>
+        </div>
+        <div class="experience-list">
+
+          <div>
+            <div class="exp-company">Superbet</div>
+            <div class="exp-meta">Staff Software Engineer · Sep 2025 – Present · London, UK</div>
+            <div class="exp-desc">Enabling push on green across the platform for improved developer productivity.</div>
+          </div>
+
+          <div>
+            <div class="exp-company">NSAVE (YC S22)</div>
+            <div class="exp-meta">Founding Engineer · 2024 – Apr 2025 · London, UK</div>
+            <div class="exp-desc">
+              Designed and implemented multi currency accounts infrastructure and services. Built nvest, the stock trading platform on nsave.
+            </div>
+          </div>
+
+          <div>
+            <div class="exp-company">Amazon Web Services — EMR</div>
+            <div class="exp-meta">Software Engineer · 2022 – 2024 · New York, USA</div>
+            <div class="exp-desc">
+              Migrated the cluster workflow architecture from poll-based to event-based, improving cluster
+              start times by over 60%.
+              <a href="https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-emr-ec2-clusters-5-minutes-less/" target="_blank" rel="noopener">Improved Cluster Start Time</a>
+              ·
+              <a href="https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-emr-enhanced-error-details/" target="_blank" rel="noopener">Enhanced EMR Troubleshooting</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="exp-company">Canary Privacy</div>
+            <div class="exp-meta">Co-founder · 2022 · New York, USA</div>
+            <div class="exp-desc">
+              Co-founded a privacy compliance startup during my time at Cornell. Secured $100K in pre-seed
+              investment and won the
+              <a href="https://tech.cornell.edu/news/cornell-tech-announces-winners-of-its-2022-startup-awards/" target="_blank" rel="noopener">Cornell Startup Award</a>.
+              Built tools to simulate user activity on client websites for cookie compliance and page change detection.
+            </div>
+          </div>
+
+          <div>
+            <div class="exp-company">Mindtickle</div>
+            <div class="exp-meta">Software Engineer · 2019 – 2021 · Pune, India</div>
+            <div class="exp-desc">
+              Built the Coaching vertical on the learning platform. Revamped the internal workflow platform,
+              improving execution times by 75%.
+            </div>
+          </div>
+
+          <div>
+            <div class="exp-company">Flipkart</div>
+            <div class="exp-meta">Software Engineer · 2015 – 2017 · Bangalore, India</div>
+            <div class="exp-desc">
+              Built the ad targeting platform to store demographic data and expose customer segments for
+              campaign creation. Enabled real-time ad retargeting and built the forecasting system powering
+              campaign creation.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- Education -->
+      <div class="section">
+        <div class="section-header">
+          <span class="section-title">Education</span>
+        </div>
+        <div class="experience-list">
+          <div>
+            <div class="exp-company">Cornell Tech, USA</div>
+            <div class="exp-meta">MBA</div>
+          </div>
+          <div>
+            <div class="exp-company">BITS Pilani, India</div>
+            <div class="exp-meta">B.E. Engineering</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-socials">
+        <a href="https://github.com/akashagrahari" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/AA_isnowonline" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.linkedin.com/in/akashagrahari/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.youtube.com/@AkashAgrahari92" target="_blank" rel="noopener">YouTube (Music)</a>
+        <a href="https://www.youtube.com/@TaxBrosGaming" target="_blank" rel="noopener">YouTube (Gaming)</a>
+
+        <a href="https://aagrahari.substack.com/" target="_blank" rel="noopener">Substack</a>
+        <a href="https://www.twitch.tv/taxbros" target="_blank" rel="noopener">Twitch</a>
+      </div>
+      <span class="footer-copy">© 2026 Akash Agrahari</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+
+</body>
+</html>

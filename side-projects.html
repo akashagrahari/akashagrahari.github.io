@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Side Projects — Akash Agrahari</title>
+  <meta name="description" content="Things I've built on the side." />
+  <script>
+    (function () {
+      const t = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo"><a href="index.html">Akash Agrahari</a></div>
+      <div class="nav-links">
+        <a href="about.html">About</a>
+        <a href="side-projects.html" class="active">Side Projects</a>
+        <a href="https://aagrahari.substack.com/" target="_blank" rel="noopener">Writings</a>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme"></button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <h1 class="page-title">Side Projects</h1>
+      <p class="page-subtitle">Things I build in my spare time — tools, games, and music experiments.</p>
+
+      <!-- Done -->
+      <div class="section">
+        <div class="section-header">
+          <span class="section-title">Shipped</span>
+        </div>
+        <div class="project-grid">
+
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-name">Irrational Tunes</span>
+              <span class="badge badge-done">Done</span>
+            </div>
+            <p class="project-desc">
+              Browser-based app. Choose a root note, a scale, and a tempo — then listen to an endless melody
+              built from the digits of mathematical constants like π.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/akashagrahari/irrationalTunes" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-name">Pong</span>
+              <span class="badge badge-done">Done</span>
+            </div>
+            <p class="project-desc">
+              Desktop app made with Lua. A retro-themed, minimalist version of Pong with two-player gameplay.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/akashagrahari/pong" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- In Progress -->
+      <div class="section">
+        <div class="section-header">
+          <span class="section-title">In Progress</span>
+        </div>
+        <div class="project-grid">
+
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-name">Piano Pal</span>
+              <span class="badge badge-wip">In Progress</span>
+            </div>
+            <p class="project-desc">
+              Browser-based app. Transcribe MIDI files and follow along to learn how to play piano.
+              Works for the most part — the piano roll loses sync on some browsers and settings.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/akashagrahari/piano-pal" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+            <div class="progress-wrap">
+              <div class="progress-meta">
+                <span>Progress</span>
+                <span>60%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- Ideas -->
+      <div class="section">
+        <div class="section-header">
+          <span class="section-title">Ideas</span>
+        </div>
+        <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 20px;">
+          Things I want to build someday. No promises.
+        </p>
+        <ul class="ideas-list">
+          <li class="idea-item">Expense tracker that actually works</li>
+          <li class="idea-item">Mastodon / Twitter bots — Wiki OnThisDay, Esport matches today</li>
+          <li class="idea-item">Wiki Stream — live edits using Wikidata</li>
+          <li class="idea-item">Liquipedia-based quiz / GPT</li>
+          <li class="idea-item">Polyrhythmic juggling visualiser</li>
+          <li class="idea-item">Guess the time signature game</li>
+          <li class="idea-item">Moviedle / Framed-like game</li>
+          <li class="idea-item">DAW drum loop tool</li>
+          <li class="idea-item">Personal Dropbox</li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-socials">
+        <a href="https://github.com/akashagrahari" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/AA_isnowonline" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.linkedin.com/in/akashagrahari/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.youtube.com/@AkashAgrahari92" target="_blank" rel="noopener">YouTube (Music)</a>
+        <a href="https://www.youtube.com/@TaxBrosGaming" target="_blank" rel="noopener">YouTube (Gaming)</a>
+
+        <a href="https://aagrahari.substack.com/" target="_blank" rel="noopener">Substack</a>
+        <a href="https://www.twitch.tv/taxbros" target="_blank" rel="noopener">Twitch</a>
+      </div>
+      <span class="footer-copy">© 2026 Akash Agrahari</span>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+
+</body>
+</html>

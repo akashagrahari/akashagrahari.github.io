@@ -1,181 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="dark">
 <head>
-<title>Akash Agrahari | Personal Page</title>
-<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
-<link rel="shortcut icon" type="image/png" href="favicon.png"/>
-<style>
-	:root {
-        --global-font-size: 20px;
-        --global-line-height: 1.4em;
-        --global-space: 10px;
-        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
-          serif;
-        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
-          serif;
-        --background-color: #222225;
-        --page-width: 60em;
-        --font-color: #e8e9ed;
-        --invert-font-color: #222225;
-        --secondary-color: #a3abba;
-        --tertiary-color: #a3abba;
-        --primary-color: #62c4ff;
-        --error-color: #ff3c74;
-        --progress-bar-background: #3f3f44;
-        --progress-bar-fill: #62c4ff;
-        --code-bg-color: #3f3f44;
-        --input-style: solid;
-        --display-h1-decoration: none;
-      }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Agrahari</title>
+  <meta name="description" content="Software engineer, builder, and creator." />
+  <script>
+    (function () {
+      const t = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
 </head>
+<body>
 
-<body class="terminal">
-    <div class="container">
-    	<div class="terminal-nav">
-    		<header class="terminal-logo">
-      			<div class="logo terminal-prompt"><a href="/" class="no-style">Akash Agrahari</a></div>
-    		</header>
-    	</div>
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo"><a href="index.html">Akash Agrahari</a></div>
+      <div class="nav-links">
+        <a href="about.html">About</a>
+        <a href="side-projects.html">Side Projects</a>
+        <a href="https://aagrahari.substack.com/" target="_blank" rel="noopener">Writings</a>
+        <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme"></button>
+      </div>
     </div>
+  </nav>
 
+  <main>
+    <div class="container">
 
-	<div class="container">
-		<p>
-			I am a software engineer with around 9 years of professional experience.
-  	</p>
+      <div class="hero">
+        <h1>Hi, I'm Akash.</h1>
+        <p>
+          A software engineer, builder, and creator. I've spent the last ~10 years building products
+          across adtech, fintech, privacy, and cloud infrastructure. Currently a Staff Software Engineer at
+          <a href="https://superbet.ro/" target="_blank" rel="noopener" style="color: var(--text-primary); text-decoration: underline; text-underline-offset: 2px;">Superbet</a>.
+          This is my little corner of the internet.
+        </p>
+      </div>
 
-      	<h1> Professional Experience </h1>
-  		<div class="terminal-timeline">
-  			<div class="terminal-card">
-  				<header>NSAVE (YC S22) - EMR | 2024 - Present | New York, USA</header>
-  					<div>	
-				        Founding Engineer. Designed and implemented USD Accounts and Investments. Built and managing applications from end to end.
-			      </div>
-		    </div>
-			<div class="terminal-card">
-  				<header>Amazon Web Services - EMR | 2022 - 2024 | New York, USA</header>
-  					<div>	
-				        Migrated the cluster workflow architecture from poll based to event based to improve cluster start times by over 60%. Project links - <a href = "https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-emr-ec2-clusters-5-minutes-less/">Improved Cluster Start time</a> | <a href = "https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-emr-enhanced-error-details/">Enhanced EMR Troubleshooting</a>
-			      </div>
-		    </div>
-		    <div class="terminal-card">
-		      <header>Canary Privacy | 2022 | New York, USA</header>
-			      <div>
-				        Co founded a privacy compliance start-tup during my time at Cornell. Secured $100,000 pre-seed investment and won the <a href = "https://tech.cornell.edu/news/cornell-tech-announces-winners-of-its-2022-startup-awards/">Cornell startup award</a>. Developed tools to simulate user activity on client websites for cookie compliance and page change detection.
-			      </div>
-		    </div>
-		    <div class="terminal-card">
-		      <header>Mindtickle | 2019-2021 | Pune, India</header>
-			      <div>
-				        Built the Coaching vertical on the learning platform. Revamped the internal workflow platform to improve execution times by 75%
-			      </div>
-		    </div>
-		    <div class="terminal-card">
-		      <header>Flipkart | 2015-2017 | Bangalore, India</header>
-			      <div>
-				        Built the ad targeting platform to store demographic data and expose customer segments for campaign creation. Enabled real-time ad-retargeting. Built the forecasting system which powered campagin creation
-			      </div>
-		    </div>
-	  	</div>
+    </div>
+  </main>
 
-	  	<h1> Side Projects </h1>
-	  	<div class="terminal-card">
-    		<header>Piano Pal</header>
-	    	<div>
-	      	<p>
-	      		Browser based app. Transcribe MIDI files to learn how to play piano. Works for the most part. The piano roll loses sync on some browsers and settings.
-	      	</p>
-	      	<p>
-	      		<a href="https://github.com/akashagrahari/piano-pal">Github</a> | Project Status
-	      	</p>
-					<div class="progress-bar">
-						<div class="progress-bar-filled" style="width: 60%" data-filled="60% complete"></div>
-					</div>	
-	    	</div>
-  		</div>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-socials">
+        <a href="https://github.com/akashagrahari" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://twitter.com/AA_isnowonline" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.linkedin.com/in/akashagrahari/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.youtube.com/@AkashAgrahari92" target="_blank" rel="noopener">YouTube (Music)</a>
+        <a href="https://www.youtube.com/@TaxBrosGaming" target="_blank" rel="noopener">YouTube (Gaming)</a>
 
-  		<div class="terminal-card">
-    		<header>Irrational Tunes</header>
-	    	<div>
-	      	<p>
-	      		Browser based app. Choose a root note, a scale and a tempo and listen to an endless melody built on the digits of constants like pi.
-	      	</p>
-	      	<p>
-	      		<a href="https://github.com/akashagrahari/irrationalTunes">Github</a> | Project Status
-	      	</p>
-					<div class="progress-bar">
-						<div class="progress-bar-filled" style="width: 100%" data-filled="Done"></div>
-					</div>	
-	    	</div>
-  		</div>
+        <a href="https://aagrahari.substack.com/" target="_blank" rel="noopener">Substack</a>
+        <a href="https://www.twitch.tv/taxbros" target="_blank" rel="noopener">Twitch</a>
+      </div>
+      <span class="footer-copy">© 2026 Akash Agrahari</span>
+    </div>
+  </footer>
 
-  		<div class="terminal-card">
-    		<header>Pong</header>
-	    	<div>
-	      	<p>
-	      		Desktop app made with Lua. Retro theme based minimalistic version of the game "Pong". 2 player gampeplay.
-	      	</p>
-	      	<p>
-	      		<a href="https://github.com/akashagrahari/pong">Github</a> | Project Status
-	      	</p>
-					<div class="progress-bar">
-						<div class="progress-bar-filled" style="width: 100%" data-filled="Done"></div>
-					</div>	
-	    	</div>
-  		</div>
-
-  		</br>
-  		<h2> Education </h2>
-  		<div class="terminal-timeline">
-			<div class="terminal-card">
-  				<header>MBA at Cornell Tech, USA</header>
-		    </div>
-		    <div class="terminal-card">
-		      <header>Engineering from BITS Pilani, India</header>
-			     
-		    </div>
-	  	</div>
-
-	  	<h1> Ideas </h1>
-	  	<ul>
-	  		<li>Expense tracker that actually works</li>
-		    <li>Mastodon/Twitter bots - Wiki OnThisDay. Esport matches today</li>
-		    <li>Wiki Stream - using wikidata</li>
-		    <li>Liquipedia based quiz/GPT</li>
-		    <li>Polyrhythmic juggling</li>
-		    <li>Guess Time Signatures</li>
-		    <li>moviedl/framed like game</li>
-		    <li>DAW | drum loop</li>
-		    <li>Personal dropbox</li>
-	  	</ul>
-	  	
-
-  		<h1> Music </h1>
-  		All my music - originals and covers are on <a href="https://www.youtube.com/@AkashAgrahari92">Youtube</a> and <a href="https://soundcloud.com/akash-agrahari">Soundcloud</a>
-
-  		<h1> Writings </h1>
-  		All my writings are on my <a href="https://aagrahari.substack.com/">Substack</a>
-  		<h1> Contact Me </h1>
-
-	  	<ul>
-		    <li><a href="https://twitter.com/AA_isnowonline">Twitter</a></li>
-		    <li><a href="https://www.linkedin.com/in/akashagrahari/">LinkedIn</a></li>
-
-	  </ul>
-	  <hr>
-	  <footer>
-  		<p>
-  			Design credits: <a href="https://terminalcss.xyz/">Terminal CSS</a>
-  		</p>
-</footer>
-  	</div>
-
-
-
+  <script src="theme.js"></script>
 
 </body>
-
 </html>
