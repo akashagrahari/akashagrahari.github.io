@@ -550,6 +550,22 @@ footer {
   display: block;
 }
 
+/* ── Buy Me a Coffee ── */
+.bmc-link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 8px;
+  background-color: #FFDD00;
+  color: #000000;
+  transition: opacity 0.15s;
+}
+
+.bmc-link:hover {
+  opacity: 0.85;
+}
+
 /* ── Responsive ── */
 @media (max-width: 560px) {
   .nav-hamburger {
