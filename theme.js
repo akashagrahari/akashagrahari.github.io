@@ -18,3 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const btn = document.getElementById('theme-toggle');
   if (btn) btn.innerHTML = saved === 'dark' ? SUN : MOON;
 });
+
+function toggleNav() {
+  const links = document.getElementById('nav-links');
+  if (links) links.classList.toggle('open');
+}

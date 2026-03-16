@@ -73,6 +73,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
+}
+
+.nav-logo {
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav-logo a {
@@ -90,6 +96,8 @@ nav {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .nav-links a {
@@ -101,6 +109,13 @@ nav {
 .nav-links a:hover,
 .nav-links a.active {
   color: var(--text-primary);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
 }
 
 .theme-toggle {
@@ -116,6 +131,22 @@ nav {
 }
 
 .theme-toggle:hover {
+  color: var(--text-primary);
+}
+
+.nav-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  padding: 4px;
+  align-items: center;
+  transition: color 0.15s;
+  line-height: 0;
+}
+
+.nav-hamburger:hover {
   color: var(--text-primary);
 }
 
@@ -388,6 +419,17 @@ main {
   margin-bottom: 0;
 }
 
+.about-bio p a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+
+.about-bio p a:hover {
+  color: var(--text-secondary);
+}
+
 .experience-list {
   display: flex;
   flex-direction: column;
@@ -414,14 +456,14 @@ main {
 }
 
 .exp-desc a {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   text-decoration: underline;
   text-underline-offset: 2px;
   transition: color 0.15s;
 }
 
 .exp-desc a:hover {
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 /* ── Divider ── */
@@ -442,9 +484,7 @@ footer {
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 12px;
 }
 
@@ -511,12 +551,32 @@ footer {
 
 /* ── Responsive ── */
 @media (max-width: 560px) {
+  .nav-hamburger {
+    display: flex;
+  }
+
   .nav-links {
-    gap: 14px;
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px 20px;
+    gap: 16px;
+    z-index: 99;
+  }
+
+  .nav-links.open {
+    display: flex;
   }
 
   .nav-links a {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .post-item {
@@ -526,10 +586,17 @@ footer {
 
   .footer-inner {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 16px;
   }
 
   .footer-socials {
+    justify-content: center;
     gap: 12px;
+  }
+
+  .cal-embed iframe {
+    height: 750px;
   }
 }
